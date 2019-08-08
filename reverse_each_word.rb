@@ -7,6 +7,5 @@
 
 def reverse_each_word(hash)
       my_array = hash.split
- 
-
+ hash.reverse_each {|x| print x, " " }
 end
