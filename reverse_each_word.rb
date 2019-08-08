@@ -7,5 +7,5 @@
 
 def reverse_each_word(sentence)
       my_array = sentence.split
-    my_array {|word| reverse
+    my_array {|word| word.reverse}.join(" ")
  end
